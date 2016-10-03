@@ -1,7 +1,28 @@
-.site-title a {
-    width: 120px;
-    height: 48px;
-    display: inline-block;
-    background: url(img/logo/logo.svg) 50% 50% no-repeat;
-    text-indent: -9999px;
+header.site-header {
+    .site-branding {
+        float: left;
+
+        .site-title {
+            a {
+                width: 120px;
+                height: 48px;
+                // display: inline-block;
+                display: block;
+                background: url(img/logo/logo.svg) 50% 50% no-repeat;
+                text-indent: -9999px;
+                // float: left;
+            }
+        }
+    }
+
+    .main-navigation {
+        // display: inline-block;
+        float: left;
+        width: auto;
+        clear: none;
+
+        a {
+            padding: 30px 12px;
+        }
+    }
 }
