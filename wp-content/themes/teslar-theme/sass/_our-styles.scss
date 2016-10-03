@@ -11,6 +11,8 @@ header.site-header {
                 background: url(img/logo/logo.svg) 50% 50% no-repeat;
                 text-indent: -9999px;
                 // float: left;
+                padding: 0 12px;
+                box-sizing: content-box;
             }
         }
     }
@@ -23,6 +25,10 @@ header.site-header {
 
         a {
             padding: 30px 12px;
+        }
+
+        .current-menu-item a {
+            background: #ef4030;
         }
     }
 }
