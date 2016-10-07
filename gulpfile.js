@@ -43,7 +43,7 @@ gulp.task('watch', ['browser-sync'], function () {
     'wp-content/themes/teslar-theme/sass/**/*.scss'
   ], ['sass']);
   gulp.watch([
-    'wp-content/themes/teslar-theme/sass/**/*.php'
+    'wp-content/themes/teslar-theme/**/*.php'
   ], ['upd-html']);
 });
 
