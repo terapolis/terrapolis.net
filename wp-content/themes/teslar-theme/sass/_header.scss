@@ -1,4 +1,10 @@
-.site-header {
+.header {
+    text-align: center;
+
+    &__container {
+        margin: 0 auto;
+        @include clearfix;
+    }
 
     .site-branding {
         float: left;
