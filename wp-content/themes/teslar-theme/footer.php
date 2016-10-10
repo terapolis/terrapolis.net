@@ -11,15 +11,13 @@
 
 ?>
 
-	</div><!-- #content -->
+    </div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'teslar-theme' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'teslar-theme' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'teslar-theme' ), 'teslar-theme', '<a href="http://rooooster.com" rel="designer">Rooster Studio</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+    <footer id="colophon" class="footer" role="contentinfo">
+        <div class="footer__powered">
+            <?php printf( esc_html__( 'Powered by %2$s', '' ), '', '<a href="http://rooooster.com" rel="designer" target="_blank">Rooster Studio</a>' ); ?>
+        </div><!-- .site-info -->
+    </footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
