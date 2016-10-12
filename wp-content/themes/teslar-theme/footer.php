@@ -14,10 +14,16 @@
     </div><!-- #content -->
 
     <footer id="colophon" class="footer" role="contentinfo">
+        <nav class="footer__socnav">
+            <a href="#">facebook</a>
+            <a href="#">pinterest</a>
+            <a href="#">instagram</a>
+        </nav>
+        <div class="footer__copyright">2013 - 2016 © Tesl'ar</div>
         <div class="footer__powered">
             <?php printf( esc_html__( 'Powered by %2$s', '' ), '', '<a href="http://rooooster.com" rel="designer" target="_blank">Rooster Studio</a>' ); ?>
-        </div><!-- .site-info -->
-    </footer><!-- #colophon -->
+        </div>
+    </footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
