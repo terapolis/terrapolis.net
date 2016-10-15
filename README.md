@@ -12,4 +12,6 @@ Web development of Теsl’ar Studio site
 
 ### Used
 
+Multiple Servers - [Mamp Pro](https://www.mamp.info/en/mamp-pro/)
+
 Streaming build system - [Gulp](http://gulpjs.com)
