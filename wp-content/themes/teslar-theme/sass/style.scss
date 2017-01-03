@@ -42,6 +42,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     ## Captions
     ## Galleries
 --------------------------------------------------------------*/
+@import '../../../../node_modules/coriolan-ui/coriolan-ui';
 @import "variables-site/variables-site";
 @import "mixins/mixins-master";
 
@@ -106,6 +107,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "media/media";
 
 @import 'header';
-@import 'contacts-page';
+@import 'page-contacts';
+@import 'page-partnership';
 @import 'footer';
 

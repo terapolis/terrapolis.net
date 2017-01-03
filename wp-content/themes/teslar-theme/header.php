@@ -16,8 +16,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
-<link rel="shortcut icon" href="wp-content/themes/teslar-theme/img/favicons/favicon-32.png">
-<link rel="apple-touch-icon" href="wp-content/themes/teslar-theme/img/favicons/favicon-144.png">
+<link rel="shortcut icon" href="wp-content/themes/teslar-theme/img/favicon/favicon-32.png">
+<link rel="apple-touch-icon" href="wp-content/themes/teslar-theme/img/favicon/favicon-144.png">
 
 <?php wp_head(); ?>
 </head>

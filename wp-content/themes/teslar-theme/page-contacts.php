@@ -9,14 +9,14 @@ get_header(); ?>
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
 
-            <div class="contacts-page">
+            <div class="page-contacts">
 
                 <div id="map" class="contacts__map"></div>
                 <script src="https://maps.google.com/maps/api/js?key=AIzaSyAEdUg5SAOUVKPI6_l5vXcOj3GB_tKvrx4"></script>
 
-                <div class="contacts-page__info">
+                <div class="page-contacts__info">
 
-                    <img class="contacts-page__logo" src="/wp-content/themes/teslar-theme/img/logo/logo.svg" alt="Teslar Logo" title="Teslar Logo">
+                    <img class="page-contacts__logo" src="/wp-content/themes/teslar-theme/img/logo/logo.svg" alt="Teslar Logo" title="Teslar Logo">
 
                     <?php
                     while ( have_posts() ) : the_post();
