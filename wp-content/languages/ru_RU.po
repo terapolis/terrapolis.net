@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-19 20:51:55+0000\n"
+"PO-Revision-Date: 2017-01-02 21:52:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -84,11 +84,11 @@ msgstr "Все возможности используемые типом зап
 msgid "An alphanumeric identifier for the status."
 msgstr "Буквенно-цифровой идентификатор статуса."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1323
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1330
 msgid "Limit response to comments published before a given ISO8601 compliant date."
 msgstr "Ограничить ответ комментариями опубликованными до заданной ISO8601 совместимой даты."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1294
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1301
 msgid "Limit response to comments published after a given ISO8601 compliant date."
 msgstr "Ограничить ответ комментариями опубликованными после заданной ISO8601 совместимой даты."
 
@@ -206,23 +206,23 @@ msgstr "Нельзя просмотреть статус."
 msgid "Invalid status."
 msgstr "Неверный статус."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:463
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:468
 msgid "URL to the original attachment file."
 msgstr "URL оригинала файла вложения."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:443
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:448
 msgid "The attachment MIME type."
 msgstr "MIME тип вложения."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:435
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:440
 msgid "Attachment type."
 msgstr "Тип вложения."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:413
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:418
 msgid "The attachment description."
 msgstr "Описание вложения."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:391
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:396
 msgid "The attachment caption."
 msgstr "Подпись вложения."
 
@@ -272,7 +272,7 @@ msgid "Invalid email address."
 msgstr "Неверный адрес email."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:486
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:680
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:687
 msgid "Invalid comment content."
 msgstr "Неверное содержание комментария."
 
@@ -394,7 +394,7 @@ msgstr "Извините, вам не разрешено прочитать эт
 msgid "Sorry, you are not allowed to edit '%s' for comments."
 msgstr "Извините, вам не разрешено редактировать '%s' для комментариев."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:748
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:755
 msgid "Sorry, you are not allowed to delete this comment."
 msgstr "Извините, вам не разрешено удалить этот комментарий."
 
@@ -629,19 +629,19 @@ msgctxt "default site language"
 msgid "Site Default"
 msgstr "По умолчанию для сайта"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:426
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:431
 msgid "HTML description for the object, transformed for display."
 msgstr "HTML описание для объекта преобразованное для показа."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:421
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:426
 msgid "Description for the object, as it exists in the database."
 msgstr "Описание для объекта как оно существует в базе данных."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:404
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:409
 msgid "HTML caption for the attachment, transformed for display."
 msgstr "HTML подпись для вложения, преобразованная для показа."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:399
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:404
 msgid "Caption for the attachment, as it exists in the database."
 msgstr "Подпись для вложения, как она существует в базе данных."
 
@@ -681,7 +681,7 @@ msgstr "Ревизии нельзя переместить в корзину. У
 msgid "The post does not support trashing. Set force=true to delete."
 msgstr "Запись нельзя переместить в корзину. Установите force=true для удаления."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:794
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:801
 msgid "The comment does not support trashing. Set force=true to delete."
 msgstr "Комментарий нельзя переместить в корзину. Установите force=true для удаления."
 
@@ -690,16 +690,16 @@ msgid "Invalid JSON body passed."
 msgstr "Отправлено неверное тело запроса JSON."
 
 #. translators: %s: taxonomy name
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2130
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2136
 msgid "Limit result set to all items except those that have the specified term assigned in the %s taxonomy."
 msgstr "Ограничить выборку до всех объектов кроме тех, что имеют указанные элементы назначенные в таксономии %s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2104
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2110
 msgid "Limit result set to posts assigned one or more statuses."
 msgstr "Ограничить выборку до записей с одним или несколькими установленными статусами."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:531
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:688
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:695
 msgid "Comment field exceeds maximum length allowed."
 msgstr "Поле комментария превышает максимальную допустимую длину."
 
@@ -711,7 +711,7 @@ msgstr "Показать местонахождение"
 msgid "Taxonomies associated with post type."
 msgstr "Таксономии ассоциированные с типом записи."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2094
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2100
 msgid "Limit result set to posts with one or more specific slugs."
 msgstr "Ограничить выборку до записей с одним или несколькими установленными конкретными ярлыками."
 
@@ -923,11 +923,11 @@ msgstr "Число опубликованных записей элемента.
 msgid "Unique identifier for the user."
 msgstr "Уникальный идентификатор пользователя."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2196
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2202
 msgid "Status is forbidden."
 msgstr "Статус запрещен."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2141
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2147
 msgid "Limit result set to items that are sticky."
 msgstr "Выборка ограничена прикрепленными объектами."
 
@@ -954,39 +954,39 @@ msgid "Limit results to taxonomies associated with a specific post type."
 msgstr "Ограничить выборку таксономиями ассоциированными с определенным типом записи."
 
 #. translators: %s: taxonomy name
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2120
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2126
 msgid "Limit result set to all items that have the specified term assigned in the %s taxonomy."
 msgstr "Ограничить выборку до объектов с установленным указанным элементом в таксономии %s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1347
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2043
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1354
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2049
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:908
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1306
 msgid "Offset the result set by a specific number of items."
 msgstr "Сдвиг выборки на определенное число объектов."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2002
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2008
 msgid "Ensure result set excludes posts assigned to specific authors."
 msgstr "Убедиться что выборка исключает записи назначенные определенным авторам."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1994
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2000
 msgid "Limit result set to posts assigned to specific authors."
 msgstr "Выборка ограничена записями назначенными определенным авторам."
 
 #. translators: %s: taxonomy name
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1961
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1967
 msgid "The terms assigned to the object in the %s taxonomy."
 msgstr "Элементы назначенные объекту в таксономии %s."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2084
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2090
 msgid "Limit result set to all items except those of a particular parent ID."
 msgstr "Ограничить выборку до объектов за исключением имеющих определенный ID родителя."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2076
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2082
 msgid "Limit result set to those of particular parent IDs."
 msgstr "Ограничить выборку до определенных ID родителей."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2037
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2043
 msgid "Limit result set to posts with a specific menu_order value."
 msgstr "Ограничить выборку до записей с определенным значением menu_order."
 
@@ -994,7 +994,7 @@ msgstr "Ограничить выборку до записей с опреде�
 msgid "Limit result set to users with a specific slug."
 msgstr "Ограничить выборку пользователями с определенным ярлыком."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1950
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1956
 msgid "The theme file to use to display the object."
 msgstr "Файл темы используемый для показа объекта."
 
@@ -1002,11 +1002,11 @@ msgstr "Файл темы используемый для показа объе�
 msgid "A password to protect access to the content and excerpt."
 msgstr "Пароль для защиты содержания и отрывка."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1943
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1949
 msgid "Whether or not the object should be treated as sticky."
 msgstr "Считать ли объект прикрепленным или нет."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1927
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1933
 msgid "The format for the object."
 msgstr "Формат для объекта."
 
@@ -1093,7 +1093,7 @@ msgstr "GUID для объекта, как он существует в базе
 msgid "The globally unique identifier for the object."
 msgstr "Глобальный уникальный идентификатор для объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1211
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1218
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1659
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:413
 msgid "The date the object was published, as GMT."
@@ -1113,7 +1113,7 @@ msgstr "Дата последнего изменения объекта, по в
 msgid "GUID for the object, transformed for display."
 msgstr "GUID для объекта, преобразованный для показа."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1205
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1212
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1653
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:407
 msgid "The date the object was published, in the site's timezone."
@@ -1160,7 +1160,7 @@ msgstr "Вам нужно определить условия поиска в п
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:73
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:95
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1420
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1427
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:86
 msgid "The password for the post if it is password protected."
 msgstr "Пароль для записи, если она защищена паролем."
@@ -1240,168 +1240,168 @@ msgstr "Должны ли записи с этим статусом быть л�
 msgid "The register_routes() method must be overridden"
 msgstr "Метод register_routes() должен быть переопределен."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1413
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1420
 msgid "Limit result set to comments assigned a specific type. Requires authorization."
 msgstr "Ограничить выборку комментариями с определенным типом. Требует авторизации."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1405
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1412
 msgid "Limit result set to comments assigned a specific status. Requires authorization."
 msgstr "Ограничить выборку комментариями с определенным статусом. Требует авторизации. "
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1362
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2055
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1369
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2061
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1319
 msgid "Sort collection by object attribute."
 msgstr "Сортировать коллекцию по атрибуту объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1352
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2048
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1359
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2054
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:914
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1312
 msgid "Order sort attribute ascending or descending."
 msgstr "Упорядочить сортировку атрибута по возрастанию или убыванию."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1387
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1394
 msgid "Ensure result set excludes specific parent IDs."
 msgstr "Убедиться что выборка исключает определенные родительские ID."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1396
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1403
 msgid "Limit result set to comments assigned to specific post IDs."
 msgstr "Ограничить выборку комментариями с назначенными определенными ID записей."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1378
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1385
 msgid "Limit result set to comments of specific parent IDs."
 msgstr "Ограничить выборку комментариями с определенными родительскими ID."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1317
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1324
 msgid "Limit result set to that from a specific author email. Requires authorization."
 msgstr "Ограничить выборку до имеющей определенный email автора. Требует авторизации."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1267
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1274
 msgid "Avatar URLs for the object author."
 msgstr "URL аватары автора объекта."
 
 #. translators: %d: avatar image size in pixels
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1259
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1266
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1253
 msgid "Avatar URL with image size of %d pixels."
 msgstr "URL аватары с размером изображения в %d пикселей."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1244
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1251
 msgid "Type of Comment for the object."
 msgstr "Тип комментария для объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1338
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2027
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1345
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2033
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:898
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1297
 msgid "Limit result set to specific IDs."
 msgstr "Ограничить выборку до определенных ID."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1329
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2018
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1336
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2024
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:889
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1288
 msgid "Ensure result set excludes specific IDs."
 msgstr "Убедиться что выборка исключает определенные ID."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1308
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1315
 msgid "Ensure result set excludes comments assigned to specific user IDs. Requires authorization."
 msgstr "Убедиться что выборка исключает комментарии назначенные определенному ID пользователя. Требует авторизации."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1300
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1307
 msgid "Limit result set to comments assigned to specific user IDs. Requires authorization."
 msgstr "Ограничить выборку комментариями назначенными определенному ID пользователя. Требует авторизации."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1987
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1993
 msgid "Limit response to posts published after a given ISO8601 compliant date."
 msgstr "Ограничить ответ записями опубликованными после заданной ISO8601 совместимой даты. "
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2012
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2018
 msgid "Limit response to posts published before a given ISO8601 compliant date."
 msgstr "Ограничить ответ записями опубликованными до заданной ISO8601 совместимой даты."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1184
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1191
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1827
 msgid "The content for the object."
 msgstr "Содержимое объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1217
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1224
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1691
 msgid "URL to the object."
 msgstr "URL объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1197
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1204
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1840
 msgid "HTML content for the object, transformed for display."
 msgstr "HTML содержимое объекта преобразованное для показа."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1192
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1199
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1835
 msgid "Content for the object, as it exists in the database."
 msgstr "Содержимое объекта как оно существует в базе данных."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1236
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1243
 msgid "State of the object."
 msgstr "Состояние объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1230
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1237
 msgid "The ID of the associated post object."
 msgstr "ID ассоциированного объекта записи."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1224
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1231
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1743
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:441
 msgid "The ID for the parent of the object."
 msgstr "ID родителя объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:807
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:814
 msgid "The comment cannot be deleted."
 msgstr "Комментарий не может быть удален."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1162
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1169
 msgid "Display name for the object author."
 msgstr "Отображаемое имя для автора объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1156
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1163
 msgid "IP address for the object author."
 msgstr "IP адрес автора объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1146
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1153
 msgid "Email address for the object author."
 msgstr "Адрес email автора объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1135
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1142
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1685
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:424
 msgid "Unique identifier for the object."
 msgstr "Уникальный идентификатор для объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:798
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:805
 msgid "The comment has already been trashed."
 msgstr "Комментарий уже был перемещен в корзину."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1176
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1183
 msgid "User agent for the object author."
 msgstr "Клиентское приложение для автора объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1170
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1177
 msgid "URL for the object author."
 msgstr "URL для автора объекта."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1141
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1148
 msgid "The ID of the user object, if author was a user."
 msgstr "ID объекта пользователя, если автор - пользователь."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1063
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1070
 msgid "Invalid comment author ID."
 msgstr "Неверный ID автора комментария."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:672
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:679
 msgid "Updating comment status failed."
 msgstr "Не удалось обновить статус комментария."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:694
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:701
 msgid "Updating comment failed."
 msgstr "Не удалось обновить комментарий."
 
@@ -1417,7 +1417,7 @@ msgstr "Создание комментария требует указать п
 msgid "Cannot create existing comment."
 msgstr "Нельзя создать уже имеющийся комментарий."
 
-#: wp-includes/comment.php:3062
+#: wp-includes/comment.php:3057
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:379
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:396
 msgid "Sorry, you must be logged in to comment."
@@ -1427,11 +1427,11 @@ msgstr "Извините, вы должны войти для комментир
 msgid "Query parameter not permitted: %s"
 msgstr "Недопустимый параметр запроса: %s"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:495
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:500
 msgid "No Content-Disposition supplied."
 msgstr "Заголовок Content-Disposition не указан."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:491
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:496
 msgid "No Content-Type supplied."
 msgstr "Заголовок Content-Type не указан."
 
@@ -1440,33 +1440,33 @@ msgstr "Заголовок Content-Type не указан."
 msgid "Whether to bypass trash and force deletion."
 msgstr "Игнорировать ли перемещение в корзину и принудительно удалять."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:649
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:654
 msgid "Limit result set to attachments of a particular MIME type."
 msgstr "Ограничить выборку до вложений определенного MIME типа."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:642
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:647
 msgid "Limit result set to attachments of a particular media type."
 msgstr "Ограничить выборку до вложений определенного типа медиа."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:526
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:531
 msgid "Could not open file handle."
 msgstr "Невозможно открыть дескриптор файла."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:501
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:506
 msgid "Invalid Content-Disposition supplied. Content-Disposition needs to be formatted as `attachment; filename=\"image.png\"` or similar."
 msgstr "Неверное значение Content-Disposition. Content-Disposition должно быть в формате `attachment; filename=\"image.png\"` или похожем."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:487
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:687
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:492
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:692
 msgid "No data supplied."
 msgstr "Данные не указаны."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:457
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:462
 msgid "The ID for the associated post of the attachment."
 msgstr "ID для ассоциированых записей для вложения."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:510
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:697
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:515
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:702
 msgid "Content hash did not match expected."
 msgstr "Контрольная сумма содержимого не соответствует ожидаемой."
 
@@ -1478,24 +1478,24 @@ msgstr "REST API более не может быть полностью откл
 msgid "Page Attributes"
 msgstr "Свойства страницы"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:98
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:205
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:103
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:210
 msgid "Invalid parent type."
 msgstr "Неверный тип родителя."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:70
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:75
 msgid "Sorry, you are not allowed to upload media on this site."
 msgstr "Извините, вам не разрешено загружать медиафайлы на этот сайт."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:450
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:455
 msgid "Details about the media file, specific to its type."
 msgstr "Подробности о медиа файле, специфичные его типу."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:382
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:387
 msgid "Alternative text to display when attachment is not displayed."
 msgstr "Альтернативный текст для показа когда вложение не отображается."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:79
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:84
 msgid "Sorry, you are not allowed to upload media to this post."
 msgstr "Извините, вам не разрешено загружать медиафайлы к этой записи."
 
@@ -1639,7 +1639,7 @@ msgstr "Имя пользователя или Email адрес"
 msgid "Site title."
 msgstr "Название сайта."
 
-#: wp-includes/media.php:3450
+#: wp-includes/media.php:3448
 msgid "Search media items..."
 msgstr "Искать медиа объекты..."
 
@@ -2363,7 +2363,7 @@ msgstr "Для удаления метаданных изображения не
 msgid "Plugin details"
 msgstr "Детали плагина"
 
-#: wp-includes/media.php:3451
+#: wp-includes/media.php:3449
 msgid "No media files found."
 msgstr "Медиафайлов не найдено."
 
@@ -2542,15 +2542,15 @@ msgctxt "comment status"
 msgid "Approved"
 msgstr "Одобрен"
 
-#: wp-includes/comment.php:1150
+#: wp-includes/comment.php:1144
 msgid "<strong>ERROR</strong>: your comment is too long."
 msgstr "<strong>ОШИБКА</strong>: ваш комментарий слишком длинный."
 
-#: wp-includes/comment.php:1146
+#: wp-includes/comment.php:1140
 msgid "<strong>ERROR</strong>: your url is too long."
 msgstr "<strong>ОШИБКА</strong>: ваша ссылка слишком длинная."
 
-#: wp-includes/comment.php:1138
+#: wp-includes/comment.php:1132
 msgid "<strong>ERROR</strong>: your name is too long."
 msgstr "<strong>ОШИБКА</strong>: ваше имя слишком длинное."
 
@@ -2559,7 +2559,7 @@ msgctxt "comment status"
 msgid "Spam"
 msgstr "Спам"
 
-#: wp-includes/comment.php:1142
+#: wp-includes/comment.php:1136
 msgid "<strong>ERROR</strong>: your email address is too long."
 msgstr "<strong>ОШИБКА</strong>: ваш адрес e-mail слишком длинный."
 
@@ -2620,7 +2620,7 @@ msgstr "Щёлкните, удерживая Shift, чтобы изменить 
 msgid "<strong>ERROR</strong>: Sorry, that username is not allowed."
 msgstr "<strong>ОШИБКА</strong>: Извините, это имя пользователя не разрешено."
 
-#: wp-includes/rest-api/class-wp-rest-request.php:904
+#: wp-includes/rest-api/class-wp-rest-request.php:908
 msgid "Invalid parameter."
 msgstr "Неверный параметер."
 
@@ -3005,7 +3005,7 @@ msgstr "Подходящий маршрут для URL и метода запр�
 msgid "JSONP support is disabled on this site."
 msgstr "Поддержка JSONP на этом сайте отключена."
 
-#: wp-includes/rest-api/class-wp-rest-request.php:886
+#: wp-includes/rest-api/class-wp-rest-request.php:890
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:157
 msgid "Missing parameter(s): %s"
 msgstr "Отсутствует параметр: %s"
@@ -3016,8 +3016,8 @@ msgstr "Отсутствует параметр: %s"
 msgid "In %1$s, use the %2$s method, not the %3$s function. See %4$s."
 msgstr "В %1$s используйте метод %2$s вместо функции %3$s. См. %4$s."
 
-#: wp-includes/rest-api/class-wp-rest-request.php:847
-#: wp-includes/rest-api/class-wp-rest-request.php:914
+#: wp-includes/rest-api/class-wp-rest-request.php:851
+#: wp-includes/rest-api/class-wp-rest-request.php:918
 msgid "Invalid parameter(s): %s"
 msgstr "Неверный параметр: %s"
 
@@ -3675,10 +3675,6 @@ msgstr "Закрыть тег курсива"
 msgid "Close bold tag"
 msgstr "Закрыть тег жирного шрифта"
 
-#: wp-includes/post.php:1389
-msgid "Remove featured image"
-msgstr "Удалить миниатюру"
-
 #: wp-includes/media-template.php:1164
 msgid "Remove poster image"
 msgstr "Удалить постер"
@@ -3687,6 +3683,10 @@ msgstr "Удалить постер"
 msgctxt "media"
 msgid "Remove video track"
 msgstr "Удалить дорожку видео"
+
+#: wp-includes/post.php:1389
+msgid "Remove featured image"
+msgstr "Удалить избранное изображение"
 
 #: wp-includes/formatting.php:125
 msgctxt "Comma-separated list of replacement words in your language"
@@ -4208,7 +4208,7 @@ msgctxt "revision date format"
 msgid "F j, Y @ H:i:s"
 msgstr "d.m.Y, H:i:s"
 
-#: wp-includes/media.php:3417
+#: wp-includes/media.php:3415
 msgid "Drag and drop to reorder media files."
 msgstr "Отсортируйте медиафайлы путём перетаскивания."
 
@@ -4421,7 +4421,7 @@ msgstr "Удалить"
 msgid "Edit Selection"
 msgstr "Изменить выбор"
 
-#: wp-includes/media.php:3435
+#: wp-includes/media.php:3433
 msgctxt "noun"
 msgid "Trash"
 msgstr "Корзина"
@@ -4644,11 +4644,11 @@ msgstr "Медиафайлы"
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
 msgstr "<strong>Вы успешно обновили WordPress!</strong> Пожалуйста, войдите, чтобы узнать, что нового."
 
-#: wp-includes/media.php:3442
+#: wp-includes/media.php:3440
 msgid "Trash Selected"
 msgstr "Удалить выбранные"
 
-#: wp-includes/media.php:3443
+#: wp-includes/media.php:3441
 msgid "Untrash Selected"
 msgstr "Восстановить выбранные"
 
@@ -4656,7 +4656,7 @@ msgstr "Восстановить выбранные"
 msgid "Untrash"
 msgstr "Восстановить"
 
-#: wp-includes/media.php:3439
+#: wp-includes/media.php:3437
 msgid ""
 "You are about to trash these items.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -4668,15 +4668,15 @@ msgstr ""
 msgid "Press return or enter to open this panel"
 msgstr "Нажмите Enter, чтобы открыть эту панель"
 
-#: wp-includes/media.php:3444
+#: wp-includes/media.php:3442
 msgid "Delete Selected"
 msgstr "Удалить выбранные"
 
-#: wp-includes/media.php:3440
+#: wp-includes/media.php:3438
 msgid "Bulk Select"
 msgstr "Множественный выбор"
 
-#: wp-includes/media.php:3441
+#: wp-includes/media.php:3439
 msgid "Cancel Selection"
 msgstr "Снять выделение"
 
@@ -4712,15 +4712,15 @@ msgstr "Битрейт:"
 msgid "File size:"
 msgstr "Размер файла:"
 
-#: wp-includes/media.php:3431
+#: wp-includes/media.php:3429
 msgid "All dates"
 msgstr "Все даты"
 
-#: wp-includes/media.php:3447
+#: wp-includes/media.php:3445
 msgid "Filter by date"
 msgstr "Фильтр по дате"
 
-#: wp-includes/media.php:3448
+#: wp-includes/media.php:3446
 msgid "Filter by type"
 msgstr "Фильтр по типу"
 
@@ -4792,11 +4792,11 @@ msgstr "Изменить другие детали"
 msgid "Bitrate Mode"
 msgstr "Режим битрейта"
 
-#: wp-includes/media.php:3434
+#: wp-includes/media.php:3432
 msgid "Unattached"
 msgstr "Неприкреплённые"
 
-#: wp-includes/media.php:3438 wp-includes/script-loader.php:80
+#: wp-includes/media.php:3436 wp-includes/script-loader.php:80
 msgid ""
 "You are about to permanently delete these items.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -4804,7 +4804,7 @@ msgstr ""
 "Вы собираетесь навсегда удалить эти элементы.\n"
 "  «Отмена» — оставить, «OK» — удалить."
 
-#: wp-includes/media.php:3449
+#: wp-includes/media.php:3447
 msgid "Search Media"
 msgstr "Поиск медиафайлов"
 
@@ -4822,7 +4822,7 @@ msgstr "Плагинов не найдено. Попробуйте другой 
 msgid "You are customizing %s"
 msgstr "Вы настраиваете %s"
 
-#: wp-includes/comment.php:3102
+#: wp-includes/comment.php:3097
 msgid "<strong>ERROR</strong>: The comment could not be saved. Please try again later."
 msgstr "<strong>ОШИБКА</strong>: Не удалось сохранить комментарий. Пожалуйста, повторите попытку позже."
 
@@ -4920,7 +4920,7 @@ msgctxt "table cell alignment attribute"
 msgid "None"
 msgstr "Нет"
 
-#: wp-includes/media-template.php:238 wp-includes/media.php:3486
+#: wp-includes/media-template.php:238 wp-includes/media.php:3484
 msgid "Suggested image dimensions:"
 msgstr "Рекомендуемые размеры изображения:"
 
@@ -4953,31 +4953,31 @@ msgctxt "video or audio"
 msgid "Length"
 msgstr "Продолжительность"
 
-#: wp-includes/media.php:3487
+#: wp-includes/media.php:3485
 msgid "There has been an error cropping your image."
 msgstr "При обрезке изображения произошла ошибка."
 
-#: wp-includes/media.php:3506
+#: wp-includes/media.php:3504
 msgid "Edit Audio Playlist"
 msgstr "Изменить плей-лист"
 
-#: wp-includes/media.php:3507
+#: wp-includes/media.php:3505
 msgid "&#8592; Cancel Audio Playlist"
 msgstr "&#8592; Отменить создание плей-листа"
 
-#: wp-includes/media.php:3508
+#: wp-includes/media.php:3506
 msgid "Insert audio playlist"
 msgstr "Вставить плей-лист аудио"
 
-#: wp-includes/media.php:3509
+#: wp-includes/media.php:3507
 msgid "Update audio playlist"
 msgstr "Обновить плей-лист аудио"
 
-#: wp-includes/media.php:3510
+#: wp-includes/media.php:3508
 msgid "Add to audio playlist"
 msgstr "Добавить в плей-лист аудио"
 
-#: wp-includes/media.php:3511
+#: wp-includes/media.php:3509
 msgid "Add to Audio Playlist"
 msgstr "Добавить в плей-лист"
 
@@ -5034,7 +5034,7 @@ msgstr "Переместить в другую область&hellip;"
 msgid "Tracks (subtitles, captions, descriptions, chapters, or metadata)"
 msgstr "Треки (субтитры, подписи, описания, главы или метаданные)"
 
-#: wp-includes/media.php:3485
+#: wp-includes/media.php:3483
 msgid "Cropping&hellip;"
 msgstr "Обработка&hellip;"
 
@@ -5297,20 +5297,20 @@ msgstr "%s и %s"
 msgid "Metadata"
 msgstr "Метаданные"
 
-#: wp-includes/media.php:3475
+#: wp-includes/media.php:3473
 msgid "Replace Image"
 msgstr "Заменить изображение"
 
 #: wp-includes/customize/class-wp-customize-image-control.php:41
-#: wp-includes/media.php:3480
+#: wp-includes/media.php:3478
 msgid "Choose Image"
 msgstr "Выбрать изображение"
 
-#: wp-includes/media.php:3501
+#: wp-includes/media.php:3499
 msgid "Add Subtitles"
 msgstr "Добавить субтитры"
 
-#: wp-includes/media.php:3498
+#: wp-includes/media.php:3496
 msgid "Add Video Source"
 msgstr "Добавить источник видео"
 
@@ -5319,7 +5319,7 @@ msgstr "Добавить источник видео"
 #: wp-includes/class-wp-customize-section.php:368
 #: wp-includes/class-wp-customize-widgets.php:772
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:75
-#: wp-includes/media.php:3411
+#: wp-includes/media.php:3409
 msgid "Back"
 msgstr "Назад"
 
@@ -5351,100 +5351,100 @@ msgstr "Постер"
 msgid "There are no associated subtitles."
 msgstr "Субтитры не указаны."
 
-#: wp-includes/media.php:3427
+#: wp-includes/media.php:3425
 msgid "Create a new playlist"
 msgstr "Создать плей-лист"
 
-#: wp-includes/media.php:3428
+#: wp-includes/media.php:3426
 msgid "Create a new video playlist"
 msgstr "Создать плей-лист видео"
 
-#: wp-includes/media.php:3474
+#: wp-includes/media.php:3472
 msgid "Image Details"
 msgstr "Параметры изображения"
 
-#: wp-includes/media.php:3476 wp-includes/media.php:3493
-#: wp-includes/media.php:3499
+#: wp-includes/media.php:3474 wp-includes/media.php:3491
+#: wp-includes/media.php:3497
 msgid "Cancel Edit"
 msgstr "Отменить редактирование"
 
-#: wp-includes/media.php:3481
+#: wp-includes/media.php:3479
 msgid "Select and Crop"
 msgstr "Выбрать и обрезать"
 
-#: wp-includes/media.php:3482
+#: wp-includes/media.php:3480
 msgid "Skip Cropping"
 msgstr "Не обрезать"
 
-#: wp-includes/media.php:3483
+#: wp-includes/media.php:3481
 msgid "Crop Image"
 msgstr "Обрезать изображение"
 
-#: wp-includes/media.php:3484
+#: wp-includes/media.php:3482
 msgid "Crop your image"
 msgstr "Обрезать изображение"
 
-#: wp-includes/media.php:3490
+#: wp-includes/media.php:3488
 msgid "Audio Details"
 msgstr "Параметры аудиофайла"
 
-#: wp-includes/media.php:3491
+#: wp-includes/media.php:3489
 msgid "Replace Audio"
 msgstr "Заменить аудиофайл"
 
-#: wp-includes/media.php:3492
+#: wp-includes/media.php:3490
 msgid "Add Audio Source"
 msgstr "Добавить источник аудио"
 
-#: wp-includes/media.php:3496
+#: wp-includes/media.php:3494
 msgid "Video Details"
 msgstr "Параметры видеофайла"
 
-#: wp-includes/media.php:3497
+#: wp-includes/media.php:3495
 msgid "Replace Video"
 msgstr "Заменить видеофайл"
 
-#: wp-includes/media.php:3500
+#: wp-includes/media.php:3498
 msgid "Select Poster Image"
 msgstr "Добавить постер"
 
-#: wp-includes/media.php:3504
+#: wp-includes/media.php:3502
 msgid "Drag and drop to reorder tracks."
 msgstr "Отсортируйте треки путём перетаскивания."
 
-#: wp-includes/media.php:3505
+#: wp-includes/media.php:3503
 msgid "Create Audio Playlist"
 msgstr "Создать плей-лист аудио"
 
-#: wp-includes/media.php:3514
+#: wp-includes/media.php:3512
 msgid "Drag and drop to reorder videos."
 msgstr "Отсортируйте видеофайлы путём перетаскивания."
 
-#: wp-includes/media.php:3515
+#: wp-includes/media.php:3513
 msgid "Create Video Playlist"
 msgstr "Создать плей-лист видео"
 
-#: wp-includes/media.php:3516
+#: wp-includes/media.php:3514
 msgid "Edit Video Playlist"
 msgstr "Изменить плей-лист"
 
-#: wp-includes/media.php:3517
+#: wp-includes/media.php:3515
 msgid "&#8592; Cancel Video Playlist"
 msgstr "&#8592; Отменить создание плей-листа"
 
-#: wp-includes/media.php:3518
+#: wp-includes/media.php:3516
 msgid "Insert video playlist"
 msgstr "Вставить плей-лист видео"
 
-#: wp-includes/media.php:3519
+#: wp-includes/media.php:3517
 msgid "Update video playlist"
 msgstr "Обновить плей-лист видео"
 
-#: wp-includes/media.php:3520
+#: wp-includes/media.php:3518
 msgid "Add to video playlist"
 msgstr "Добавить в плей-лист видео"
 
-#: wp-includes/media.php:3521
+#: wp-includes/media.php:3519
 msgid "Add to Video Playlist"
 msgstr "Добавить в плей-лист"
 
@@ -5501,7 +5501,7 @@ msgstr "Стиль"
 msgid "Clear formatting"
 msgstr "Очистить форматирование"
 
-#: wp-includes/media-template.php:889 wp-includes/media.php:3409
+#: wp-includes/media-template.php:889 wp-includes/media.php:3407
 msgid "Replace"
 msgstr "Заменить"
 
@@ -5967,7 +5967,7 @@ msgid "JavaScript must be enabled to use this feature."
 msgstr "Эта функция требует JavaScript."
 
 #. translators: localized date format, see https://secure.php.net/date
-#: wp-includes/class-wp-locale.php:398 wp-includes/media.php:3087
+#: wp-includes/class-wp-locale.php:398 wp-includes/media.php:3088
 msgid "F j, Y"
 msgstr "d.m.Y"
 
@@ -6097,11 +6097,11 @@ msgstr "Случайный порядок"
 #. If there is not a word you can use in your language to avoid issues with
 #. the 		   lack of plural support here, turn it into "selected: %d" then
 #. translate it.
-#: wp-includes/media.php:3416
+#: wp-includes/media.php:3414
 msgid "%d selected"
 msgstr "Выбрано: %d"
 
-#: wp-includes/media.php:3457
+#: wp-includes/media.php:3455
 msgid "Insert from URL"
 msgstr "Вставить с сайта"
 
@@ -6110,21 +6110,21 @@ msgctxt "Links widget"
 msgid "Random"
 msgstr "Случайно"
 
-#: wp-includes/media-template.php:1233 wp-includes/media.php:3432
+#: wp-includes/media-template.php:1233 wp-includes/media.php:3430
 msgid "No items found."
 msgstr "Элементов не найдено."
 
-#: wp-includes/media.php:3470
+#: wp-includes/media.php:3468
 msgid "Add to Gallery"
 msgstr "Добавить в галерею"
 
-#: wp-includes/media.php:3471
+#: wp-includes/media.php:3469
 msgid "Reverse order"
 msgstr "В обратном порядке"
 
 #: wp-includes/post.php:1388
 msgid "Set featured image"
-msgstr "Задать миниатюру"
+msgstr "Задать избранное изображение"
 
 #: wp-includes/media-template.php:475
 msgid "Deselect"
@@ -6136,11 +6136,11 @@ msgid "Sorry, that file cannot be edited."
 msgstr "Извините, этот файл не может быть изменён."
 
 #: wp-includes/media-template.php:438 wp-includes/media-template.php:541
-#: wp-includes/media.php:3445
+#: wp-includes/media.php:3443
 msgid "Delete Permanently"
 msgstr "Удалить навсегда"
 
-#: wp-includes/media.php:3437
+#: wp-includes/media.php:3435
 msgid ""
 "You are about to permanently delete this item.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -6209,7 +6209,7 @@ msgstr "Вставить в страницу"
 msgid "Uploaded to this page"
 msgstr "Загруженные для этой страницы"
 
-#: wp-includes/media.php:3430
+#: wp-includes/media.php:3428
 msgid "All media items"
 msgstr "Все медиафайлы"
 
@@ -6221,7 +6221,7 @@ msgstr "Загруженные для этой записи"
 msgid "Audio"
 msgstr "Аудио"
 
-#: wp-includes/media.php:3429
+#: wp-includes/media.php:3427
 msgid "&#8592; Return to library"
 msgstr "&#8592; Вернуться в библиотеку"
 
@@ -6230,7 +6230,7 @@ msgstr "&#8592; Вернуться в библиотеку"
 msgid "Custom URL"
 msgstr "Произвольный URL"
 
-#: wp-includes/media-template.php:498 wp-includes/media.php:3454
+#: wp-includes/media-template.php:498 wp-includes/media.php:3452
 msgid "Attachment Details"
 msgstr "Параметры файла"
 
@@ -6244,7 +6244,7 @@ msgid "Columns"
 msgstr "Колонки"
 
 #: wp-includes/media-template.php:693 wp-includes/media-template.php:768
-#: wp-includes/media-template.php:942 wp-includes/media.php:3149
+#: wp-includes/media-template.php:942 wp-includes/media.php:3150
 msgid "Large"
 msgstr "Большой"
 
@@ -6252,11 +6252,11 @@ msgstr "Большой"
 msgid "Gallery Settings"
 msgstr "Настройки галереи"
 
-#: wp-includes/media.php:3421
+#: wp-includes/media.php:3419
 msgid "Upload Images"
 msgstr "Загрузить изображения"
 
-#: wp-includes/media.php:3466
+#: wp-includes/media.php:3464
 msgid "&#8592; Cancel Gallery"
 msgstr "&#8592; Отменить создание галереи"
 
@@ -6272,11 +6272,11 @@ msgstr "WordPress &rsaquo; Успех"
 msgid "Drop files anywhere to upload"
 msgstr "Перетащите файлы сюда"
 
-#: wp-includes/media.php:3420
+#: wp-includes/media.php:3418
 msgid "Upload Files"
 msgstr "Загрузить файлы"
 
-#: wp-includes/media.php:3467
+#: wp-includes/media.php:3465
 msgid "Insert gallery"
 msgstr "Вставить галерею"
 
@@ -6284,11 +6284,11 @@ msgstr "Вставить галерею"
 msgid "Drop files to upload"
 msgstr "Перетащите файлы сюда"
 
-#: wp-includes/media.php:3424
+#: wp-includes/media.php:3422
 msgid "Media Library"
 msgstr "Библиотека файлов"
 
-#: wp-includes/media.php:3464
+#: wp-includes/media.php:3462
 msgid "Create Gallery"
 msgstr "Создать галерею"
 
@@ -6371,7 +6371,7 @@ msgstr "Опишите этот аудиофайл&hellip;"
 msgid "Describe this media file&hellip;"
 msgstr "Опишите этот медиафайл&hellip;"
 
-#: wp-includes/media.php:3468
+#: wp-includes/media.php:3466
 msgid "Update gallery"
 msgstr "Обновить галерею"
 
@@ -6430,11 +6430,11 @@ msgstr "Не удалось сохранить изображение"
 msgid "Clear"
 msgstr "Сброс"
 
-#: wp-includes/media.php:3425
+#: wp-includes/media.php:3423
 msgid "Insert Media"
 msgstr "Вставить медиафайл"
 
-#: wp-includes/media.php:3426
+#: wp-includes/media.php:3424
 msgid "Create a new gallery"
 msgstr "Создать новую галерею"
 
@@ -6442,7 +6442,7 @@ msgstr "Создать новую галерею"
 msgid "Insert into post"
 msgstr "Вставить в запись"
 
-#: wp-includes/media.php:3469
+#: wp-includes/media.php:3467
 msgid "Add to gallery"
 msgstr "Добавить в галерею"
 
@@ -6658,7 +6658,7 @@ msgstr "Страница записей"
 #: wp-includes/customize/class-wp-customize-image-control.php:37
 #: wp-includes/customize/class-wp-customize-media-control.php:63
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:144
-#: wp-includes/media-template.php:471 wp-includes/media.php:3410
+#: wp-includes/media-template.php:471 wp-includes/media.php:3408
 msgid "Remove"
 msgstr "Удалить"
 
@@ -6668,7 +6668,7 @@ msgstr "Разрешённые файлы"
 
 #: wp-includes/post.php:1387
 msgid "Featured Image"
-msgstr "Миниатюра записи"
+msgstr "Избранное изображение"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1891
 #: wp-includes/class-wp-xmlrpc-server.php:1989
@@ -7065,15 +7065,15 @@ msgstr "Размер файла «%s» превышает максимальны
 msgid "Feedback"
 msgstr "Обратная связь"
 
-#: wp-includes/comment.php:3070
+#: wp-includes/comment.php:3065
 msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
 msgstr "<strong>ОШИБКА</strong>: пожалуйста, заполните необходимые поля (имя, e-mail)."
 
-#: wp-includes/comment.php:3072
+#: wp-includes/comment.php:3067
 msgid "<strong>ERROR</strong>: please enter a valid email address."
 msgstr "<strong>ОШИБКА</strong>: пожалуйста, введите корректный адрес e-mail."
 
-#: wp-includes/comment.php:3077
+#: wp-includes/comment.php:3072
 msgid "<strong>ERROR</strong>: please type a comment."
 msgstr "<strong>ОШИБКА</strong>: пожалуйста, введите комментарий."
 
@@ -7922,7 +7922,7 @@ msgstr "Вы уверены, что хотите установить этот �
 
 #: wp-includes/post.php:1390 wp-includes/script-loader.php:741
 msgid "Use as featured image"
-msgstr "Использовать как миниатюру"
+msgstr "Использовать как избранное изображение"
 
 #: wp-includes/general-template.php:1016
 msgid "Page %s"
@@ -8134,8 +8134,8 @@ msgstr "Извините, такой страницы нет."
 #: wp-includes/class-wp-xmlrpc-server.php:3430
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:351
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:654
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:744
-#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:769
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:751
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:776
 msgid "Invalid comment ID."
 msgstr "Неверный ID комментария."
 
@@ -8164,6 +8164,7 @@ msgstr "Неверный статус комментария."
 #: wp-includes/class-wp-xmlrpc-server.php:6191 wp-includes/post.php:3012
 #: wp-includes/post.php:3546
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:357
+#: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:670
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:435
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:631
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:743
@@ -8319,7 +8320,7 @@ msgstr "Общие"
 msgid "Unapproved"
 msgstr "Не одобрен"
 
-#: wp-includes/comment.php:2101
+#: wp-includes/comment.php:2095
 msgid "Could not update comment status"
 msgstr "Не удалось обновить статус комментария"
 
@@ -8573,7 +8574,7 @@ msgid "Page not found"
 msgstr "Страница не найдена"
 
 #. translators: 1: month name, 2: 4-digit year
-#: wp-includes/general-template.php:1743 wp-includes/media.php:3345
+#: wp-includes/general-template.php:1743 wp-includes/media.php:3343
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
 
@@ -9008,7 +9009,7 @@ msgstr "Внизу слева"
 msgid "Bottom Right"
 msgstr "Внизу справа"
 
-#: wp-includes/media.php:3465
+#: wp-includes/media.php:3463
 msgid "Edit Gallery"
 msgstr "Редактировать галерею"
 
@@ -9921,7 +9922,7 @@ msgstr "Виджеты"
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "По какой-то странной и неприятной причине эту запись не удалось отредактировать."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3553 wp-includes/comment.php:2988
+#: wp-includes/class-wp-xmlrpc-server.php:3553 wp-includes/comment.php:2983
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:449
 msgid "Sorry, comments are closed for this item."
 msgstr "Извините, обсуждение этой записи закрыто."
@@ -10168,7 +10169,7 @@ msgid "Search Categories"
 msgstr "Поиск рубрик"
 
 #: wp-includes/class-wp-customize-widgets.php:728
-#: wp-includes/class-wp-editor.php:1055 wp-includes/media.php:3446
+#: wp-includes/class-wp-editor.php:1055 wp-includes/media.php:3444
 msgid "Apply"
 msgstr "Применить"
 
@@ -10195,7 +10196,7 @@ msgstr "Автор"
 #: wp-includes/class-wp-editor.php:1448
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:91
 #: wp-includes/media-template.php:373 wp-includes/media-template.php:554
-#: wp-includes/media.php:3403
+#: wp-includes/media.php:3401
 msgid "URL"
 msgstr "URL"
 
@@ -10298,7 +10299,7 @@ msgid "Plugins"
 msgstr "Плагины"
 
 #: wp-includes/class-wp-editor.php:876 wp-includes/class-wp-editor.php:1489
-#: wp-includes/media.php:3407 wp-includes/script-loader.php:415
+#: wp-includes/media.php:3405 wp-includes/script-loader.php:415
 #: wp-includes/script-loader.php:465 wp-includes/script-loader.php:555
 msgid "Cancel"
 msgstr "Отмена"
@@ -10347,7 +10348,7 @@ msgid "Redo"
 msgstr "Повторить"
 
 #: wp-includes/media-template.php:691 wp-includes/media-template.php:766
-#: wp-includes/media-template.php:940 wp-includes/media.php:3147
+#: wp-includes/media-template.php:940 wp-includes/media.php:3148
 msgid "Thumbnail"
 msgstr "Миниатюра"
 
@@ -10360,7 +10361,7 @@ msgstr "Библиотека GD не установлена."
 msgid "File &#8220;%s&#8221; is not an image."
 msgstr "Файл &laquo;%s&raquo; не является картинкой."
 
-#: wp-includes/media.php:3404
+#: wp-includes/media.php:3402
 msgid "Add Media"
 msgstr "Добавить медиафайл"
 
@@ -10390,7 +10391,7 @@ msgid "Right"
 msgstr "Справа"
 
 #: wp-includes/media-template.php:692 wp-includes/media-template.php:767
-#: wp-includes/media-template.php:941 wp-includes/media.php:3148
+#: wp-includes/media-template.php:941 wp-includes/media.php:3149
 msgid "Medium"
 msgstr "Средний"
 
@@ -10442,7 +10443,7 @@ msgstr "Открыто"
 msgid "Schedule"
 msgstr "Запланировать"
 
-#: wp-includes/media.php:3408 wp-includes/script-loader.php:429
+#: wp-includes/media.php:3406 wp-includes/script-loader.php:429
 #: wp-includes/script-loader.php:565 wp-includes/script-loader.php:641
 msgid "Update"
 msgstr "Обновить"
@@ -10461,7 +10462,7 @@ msgid "All Categories"
 msgstr "Все рубрики"
 
 #: wp-includes/admin-bar.php:857 wp-includes/admin-bar.php:858
-#: wp-includes/class-wp-editor.php:1464 wp-includes/media.php:3405
+#: wp-includes/class-wp-editor.php:1464 wp-includes/media.php:3403
 msgid "Search"
 msgstr "Поиск"
 
@@ -10491,7 +10492,7 @@ msgstr "Без рубрики"
 msgid "Close"
 msgstr "Закрыть"
 
-#: wp-includes/media.php:3406
+#: wp-includes/media.php:3404
 msgid "Select"
 msgstr "Выбрать"
 
@@ -10507,7 +10508,7 @@ msgstr "Изменить медиафайл"
 msgid "New Post"
 msgstr "Новая запись"
 
-#: wp-includes/media.php:3114 wp-includes/script-loader.php:431
+#: wp-includes/media.php:3115 wp-includes/script-loader.php:431
 #: wp-includes/script-loader.php:612
 msgid "(no title)"
 msgstr "(без названия)"
@@ -10540,12 +10541,12 @@ msgid "Recent Comments"
 msgstr "Свежие комментарии"
 
 #: wp-includes/media-template.php:694 wp-includes/media-template.php:769
-#: wp-includes/media-template.php:943 wp-includes/media.php:3150
+#: wp-includes/media-template.php:943 wp-includes/media.php:3151
 msgid "Full Size"
 msgstr "Полный"
 
 #: wp-includes/media-template.php:327 wp-includes/media-template.php:525
-#: wp-includes/media.php:3477
+#: wp-includes/media.php:3475
 msgid "Edit Image"
 msgstr "Редактировать"
 

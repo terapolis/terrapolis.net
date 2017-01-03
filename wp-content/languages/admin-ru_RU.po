@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-05 19:26:05+0000\n"
+"PO-Revision-Date: 2017-01-02 21:52:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -961,7 +961,7 @@ msgstr "Архив темы"
 msgid "Attach to existing content"
 msgstr "Прикрепить к существующей записи"
 
-#: wp-admin/includes/post.php:1454
+#: wp-admin/includes/post.php:1425
 msgid "Click the image to edit or update"
 msgstr "Нажмите на изображение, чтобы изменить или обновить его"
 
@@ -1526,11 +1526,11 @@ msgstr "Скачать версию %s"
 msgid "Toggle panel: %s"
 msgstr "Показать/скрыть панель: %s"
 
-#: wp-admin/includes/post.php:1651
+#: wp-admin/includes/post.php:1622
 msgid "Saving revision&hellip;"
 msgstr "Сохранение редакции&hellip;"
 
-#: wp-admin/includes/post.php:1380
+#: wp-admin/includes/post.php:1351
 msgid "Edit permalink"
 msgstr "Изменить постоянную ссылку"
 
@@ -3586,11 +3586,11 @@ msgstr "Переводы"
 msgid "Future security updates will be applied automatically."
 msgstr "Следующие обновления безопасности будут применяться автоматически."
 
-#: wp-admin/includes/post.php:1614
+#: wp-admin/includes/post.php:1585
 msgid "If you take over, %s will be blocked from continuing to edit."
 msgstr "Если вы перехватите запись, %s не сможет продолжить редактирование."
 
-#: wp-admin/includes/post.php:1612
+#: wp-admin/includes/post.php:1583
 msgid "This content is currently locked."
 msgstr "Это содержимое на текущий момент заблокировано."
 
@@ -4175,7 +4175,7 @@ msgstr "На этом экране вы можете:"
 msgid "This screen is used for managing your custom navigation menus."
 msgstr "Этот экран используется для управления вашими произвольными меню."
 
-#: wp-admin/includes/post.php:1652
+#: wp-admin/includes/post.php:1623
 msgid "Your latest changes were saved as a revision."
 msgstr "Ваши последние изменения сохранены в виде редакции."
 
@@ -4270,7 +4270,7 @@ msgstr "Черновик, созданный %1$s в %2$s"
 msgid "You cannot move this item to the Trash. %s is currently editing."
 msgstr "Вы не можете переместить этот элемент в корзину. Его сейчас редактирует %s."
 
-#: wp-admin/includes/post.php:1637
+#: wp-admin/includes/post.php:1608
 msgid "Take over"
 msgstr "Перехватить"
 
@@ -6188,7 +6188,7 @@ msgstr ""
 
 #: wp-admin/includes/theme.php:257
 msgid "Featured Images"
-msgstr "Миниатюры записей"
+msgstr "Избранные изображения"
 
 #: wp-admin/includes/class-wp-press-this.php:823
 #: wp-admin/includes/meta-boxes.php:385 wp-admin/includes/theme.php:263
@@ -6201,7 +6201,7 @@ msgstr "Одноколоночный шаблон"
 
 #: wp-admin/includes/theme.php:256
 msgid "Featured Image Header"
-msgstr "Миниатюры записей в заголовке"
+msgstr "Избранное изображение в заголовке"
 
 #. translators: %s: browser name and link
 #: wp-admin/includes/dashboard.php:1344
@@ -7752,7 +7752,7 @@ msgstr "Доступные виджеты"
 msgid "Error in displaying the widget settings form."
 msgstr "Ошибка при отображении формы настроек виджета."
 
-#: wp-admin/includes/misc.php:882 wp-admin/includes/post.php:1814
+#: wp-admin/includes/misc.php:882 wp-admin/includes/post.php:1785
 #: wp-admin/widgets.php:340
 msgid "Error while saving."
 msgstr "Ошибка при сохранении."
@@ -8090,7 +8090,7 @@ msgid "You can&#8217;t edit this item because it is in the Trash. Please restore
 msgstr "Вы не можете редактировать этот элемент, потому что он в корзине. Пожалуйста, восстановите его и повторите попытку."
 
 #: wp-admin/async-upload.php:57 wp-admin/edit-tags.php:154
-#: wp-admin/includes/post.php:1820 wp-admin/media-upload.php:46
+#: wp-admin/includes/post.php:1791 wp-admin/media-upload.php:46
 #: wp-admin/post.php:117 wp-admin/term.php:38
 msgid "Sorry, you are not allowed to edit this item."
 msgstr "Извините, вам не разрешено редактировать этот элемент."
@@ -9235,11 +9235,11 @@ msgstr "Ещё один сайт сети «%s»"
 msgid "Just another WordPress site"
 msgstr "Ещё один сайт на WordPress"
 
-#: wp-admin/includes/post.php:1365
+#: wp-admin/includes/post.php:1336
 msgid "Change Permalinks"
 msgstr "Изменить постоянные ссылки"
 
-#: wp-admin/includes/post.php:1354 wp-admin/includes/post.php:1377
+#: wp-admin/includes/post.php:1325 wp-admin/includes/post.php:1348
 msgid "Permalink:"
 msgstr "Постоянная ссылка:"
 
@@ -10900,7 +10900,7 @@ msgid "Sorry, you are not allowed to edit comments on this post."
 msgstr "Извините, вам не разрешено изменять комментарии к этой записи."
 
 #: wp-admin/comment.php:61 wp-admin/comment.php:255
-#: wp-admin/includes/post.php:1561
+#: wp-admin/includes/post.php:1532
 msgid "Go back"
 msgstr "Назад"
 
